@@ -20,8 +20,6 @@ class LoginScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            //asset image
-            //comment from git
             Image(
                 width: double.infinity,
                 height: height * .3,
