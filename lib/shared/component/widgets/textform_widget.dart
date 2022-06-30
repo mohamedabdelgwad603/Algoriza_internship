@@ -20,7 +20,10 @@ class TextFormWidget extends StatelessWidget {
       validator: validate,
       keyboardType: type,
       obscureText: isPassword,
+      autovalidateMode: AutovalidateMode.onUserInteraction,
       decoration: InputDecoration(
+          focusedErrorBorder: const OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.grey)),
           suffixIcon: Icon(suffix),
           hintText: hint,
           focusedBorder: const OutlineInputBorder(

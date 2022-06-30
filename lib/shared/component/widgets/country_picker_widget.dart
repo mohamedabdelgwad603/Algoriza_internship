@@ -18,15 +18,10 @@ class CountryPickerWidget extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(5.0),
         child: InternationalPhoneNumberInput(
+          autoValidateMode: AutovalidateMode.onUserInteraction,
           onInputChanged: (PhoneNumber phonenumber) {
             ///  number = phonenumber;
             print('${phonenumber.phoneNumber}' + '${controller.text}');
-          },
-          validator: (val) {
-            if (val!.isEmpty)
-              return "number must not be empty";
-            else
-              return null;
           },
           selectorConfig: const SelectorConfig(
             selectorType: PhoneInputSelectorType.BOTTOM_SHEET,
@@ -34,6 +29,7 @@ class CountryPickerWidget extends StatelessWidget {
           initialValue: number,
           textFieldController: controller,
           inputDecoration: InputDecoration(
+            errorMaxLines: 1,
             contentPadding: EdgeInsetsDirectional.only(bottom: 15, start: 0),
             border: InputBorder.none,
             hintText: 'Eg. 1147881089',

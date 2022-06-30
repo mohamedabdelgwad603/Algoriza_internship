@@ -44,6 +44,7 @@ class OnBoardingScreen extends StatelessWidget {
         AppBar().preferredSize.height -
         MediaQuery.of(context).padding.top);
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         actions: const [buildSkipButton()],
       ),
