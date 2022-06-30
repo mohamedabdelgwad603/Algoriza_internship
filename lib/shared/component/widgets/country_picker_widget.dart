@@ -12,14 +12,21 @@ class CountryPickerWidget extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
+        borderRadius: BorderRadius.circular(5),
         border: Border.all(color: Colors.grey),
       ),
       child: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(5.0),
         child: InternationalPhoneNumberInput(
           onInputChanged: (PhoneNumber phonenumber) {
-            number = phonenumber;
-            print('${number.phoneNumber}' + '${controller.text}');
+            ///  number = phonenumber;
+            print('${phonenumber.phoneNumber}' + '${controller.text}');
+          },
+          validator: (val) {
+            if (val!.isEmpty)
+              return "number must not be empty";
+            else
+              return null;
           },
           selectorConfig: const SelectorConfig(
             selectorType: PhoneInputSelectorType.BOTTOM_SHEET,

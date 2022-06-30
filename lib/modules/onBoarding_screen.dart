@@ -108,7 +108,7 @@ class OnBoardingScreen extends StatelessWidget {
                             ),
                             TextButton(
                                 onPressed: () {
-                                  push(context, const RegisterScreen());
+                                  push(context, RegisterScreen());
                                 },
                                 child: Text(
                                   "sign Up",
@@ -148,7 +148,7 @@ class buildSkipButton extends StatelessWidget {
           ),
         ),
         onPressed: () {
-          push(context, const RegisterScreen());
+          push(context, RegisterScreen());
         },
         child: const Text(
           "skip",
