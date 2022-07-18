@@ -1,16 +1,5 @@
 # algoriza_first_test
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![al1](https://user-images.githubusercontent.com/82996452/179508483-684c7da6-0a53-45b3-af80-a687a0120a7f.png)
+![al2](https://user-images.githubusercontent.com/82996452/179508500-9949c7e5-e5f4-41fc-bd39-58c1a496a5cc.png)
+![al3](https://user-images.githubusercontent.com/82996452/179508506-370671d6-c927-4122-9a22-2ab36e791857.png)
+![al4](https://user-images.githubusercontent.com/82996452/179508532-04f760f9-2359-4f69-8d54-89f616502969.png)
